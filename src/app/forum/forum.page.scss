@@ -1,0 +1,83 @@
+ion-content{
+  height: 100%;
+  width: 100%;
+  --background: #2c2a27;
+
+}
+
+.top{
+
+  height: 170px;
+  background: #FCE69E;
+}
+
+.cima{
+  display: flex;
+  color: black;
+
+  p{
+    font-family:'Franklin Gothic Medium';
+    font-size: 22px;
+    margin-left: 10px;
+    padding-top: 10px;
+  }
+
+  ion-icon{
+    margin-left: 20px;
+    margin-top: 30px;
+    height: 35px;
+    width: 35px;
+
+  }
+
+}
+
+.barra{
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 10px;
+}
+
+.comentao{
+  color: #FCE69E;
+  border: 1px solid #FCE69E;
+  padding: 5px;
+  margin: 0;
+
+.coment{
+
+  display: flex;
+  ion-icon{
+    padding-top: 15px;
+    padding-left: 10px;
+    height: 50px;
+    width: 60px;
+  }
+
+  h1{
+    font-size: 18px;
+    padding-top: 10px;
+    padding-left: 5px;
+  }
+}
+
+.title{
+
+  font-family:'Franklin Gothic Medium';
+  padding-top: 5px;
+  padding-left: 20px;
+  font-size: 16px;
+}
+.subtitle{
+  padding-top: 5px;
+  margin-left: 20px;
+  margin-right: 25px;
+  text-align: left;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 16px;
+  color: #cacaca;
+
+}
+}
+
+

@@ -1,0 +1,46 @@
+
+
+.card-container{
+    width: 100%;
+    height: 100%;
+    background: #2c2a27;
+  }
+  
+  .top{
+    height: 170px;
+    background: #FCE69E;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .image-container {
+    background-color: #fff;
+    width: 160px;
+    height: 160px;
+    padding: 5px;
+    border-radius: 50%;
+    margin-top: 20%;
+  }
+  
+  .image-container img{
+    background-color: #fff;
+    border-radius: 50%;
+    opacity: 70%;
+  }
+  
+  .bottom{
+    text-align: center;
+    padding-top: 22%;
+    p{
+      font-family:'Franklin Gothic Medium';
+      padding-top: 10px;
+      color: #b6b6b6;
+    }
+    h3{
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      color: white;
+      font-size: 25px;
+      font-weight: bold;
+    }
+  }
+  

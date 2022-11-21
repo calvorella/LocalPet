@@ -1,0 +1,41 @@
+<ion-header [translucent]="true">
+  <ion-title>
+  </ion-title>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+<ion-header collapse="condense">
+</ion-header>
+
+<div class="img">
+<img src="assets/img/logolocalpet.png"/>
+</div>
+
+<div class="text">
+<h1> Login </h1>
+<h3> Entre para continuar</h3>
+<h2 routerLink="/tela2"> ou <span style="text-decoration: underline;">cadastre-se</span></h2>
+</div>
+
+<br><br>
+
+<div class="login">
+<p>COLOQUE SEU EMAIL</p>
+
+  <ion-item>
+  <ion-input placeholder="seuemail@email.com" type="text" [(ngModel)]="vemail"></ion-input>
+  </ion-item>
+
+  <p>COLOQUE SUA SENHA</p>
+  <ion-item>
+  <ion-input placeholder="4-8 caracteres" type="password" [(ngModel)]="vsenha"></ion-input>
+</ion-item>
+
+</div>
+
+<div class="esenha">
+ <ion-button (click) = "autenticar()">Login</ion-button>
+ <ion-label>{{mensagem}}</ion-label>
+</div>
+
+</ion-content>
